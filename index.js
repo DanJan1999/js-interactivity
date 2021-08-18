@@ -1,7 +1,8 @@
 
 console.log(`Hello World`)
 
-document.querySelector('form').addEventListener('submit', addMovie);
+let form = document.querySelector('form')
+form.addEventListener('submit', addMovie);
 const message = document.querySelector('#message');
 
 function addMovie(event) {
